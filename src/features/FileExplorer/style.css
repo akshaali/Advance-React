@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+
+.file-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 16px;
+}
+
+.file-item {
+  padding: 0;
+}
+
+.file-item-container {
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+
+
+}
+
+.file-item-button {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  line-height: 1.5;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  gap: 4px;
+}
+
+.file-item-button--directory {
+  gap: 4px;
+  font-weight: bold;
+}
+
+.action-button-container {
+  /* position: absolute; */
+  left: 0;
+  top: 0;
+  display: flex;
+  gap: 4px;
+}
